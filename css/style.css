@@ -250,7 +250,9 @@ footer {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    margin: 5px 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+ 
     /* DEBUG */
     background-color: #DAA51D;
     height: 300px;
@@ -267,7 +269,6 @@ footer {
 
 .nav-footer {
     display: flex;
-    
     flex-grow: 1;
 
     /* DEBUG */
@@ -314,4 +315,35 @@ footer {
     height: 300px;
     border: 2px dashed white;
 
+}
+
+/* Sign-up & logo */
+
+#end-footer {
+
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #fff;
+ 
+    /* DEBUG */
+    background-color: #7FFFD4;
+    height: 50px;
+}
+
+.logo-footer {
+    padding-left: 5px;
+        /* DEBUG */
+    background-color: #FDB7BF;
+    height: 20px;
+    border: 2px dashed black;
+}
+
+.sign-up-button {
+    padding-right: 5px;
+        /* DEBUG */
+    background-color: #FDB7BF;
+    height: 20px;
+    border: 2px dashed black;
 }
