@@ -11,9 +11,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     /* DEBUG */
     background-color: #ACD7E5;
-    height: 50px;
+    min-height: 300px;
 }
 
 .header-container {
@@ -27,7 +28,7 @@ header {
     height: 30px;
 }
 
-    /* logo */
+/* logo */
 #logo {
     display: flex;
     align-items: center;
@@ -40,7 +41,7 @@ header {
 
 }
 
-    /* nav */
+/* nav */
 .nav-top {
     display: flex;
     justify-content: center;
@@ -60,7 +61,7 @@ header {
 
 }
 
-    /* login button */
+/* login button */
 #login {
     width: 20%;
     display: flex;
@@ -72,4 +73,24 @@ header {
     border: 2px dashed black;
     height: 30px;
 
+}
+
+/* Jumbotron */
+
+#jumbotron-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    background-color: #00018B;
+    height: 300px;
+}
+
+.jumbotron {
+    width: 60%;
+    /* DEBUG */
+    background-color: #EF82ED;
+    height: 250px;
+    border: 2px dashed black;
 }
