@@ -132,8 +132,10 @@ main {
 
 /* container width 60 */
 .container-w60 {
-    flex-grow: 1;
-    /* width: 60%; */
+    /* flex-grow: 1; */
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 60%;
     /* DEBUG */
     background-color: #1E90FF;
     height: 250px;
@@ -143,7 +145,8 @@ main {
 
 /* container width 40 */
 .container-w40 {
-
+    padding-left: 5px;
+    padding-right: 5px;
     width: 40%;
     /* DEBUG */
     background-color: #FFC0CA;
