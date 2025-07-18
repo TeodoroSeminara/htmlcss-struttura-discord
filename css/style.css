@@ -112,7 +112,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
@@ -132,9 +132,9 @@ main {
 
 /* container width 60 */
 .container-w60 {
-
-    width: 60%;
-     /* DEBUG */
+    flex-grow: 1;
+    /* width: 60%; */
+    /* DEBUG */
     background-color: #1E90FF;
     height: 250px;
     border: 2px dashed black;
@@ -145,7 +145,7 @@ main {
 .container-w40 {
 
     width: 40%;
-     /* DEBUG */
+    /* DEBUG */
     background-color: #FFC0CA;
     height: 250px;
     border: 2px dashed black;
@@ -161,7 +161,7 @@ main {
     align-items: center;
 
     /* DEBUG */
-    background-color: grey;
+    background-color: #D3D3D3;
 
 }
 
@@ -216,7 +216,7 @@ main {
     padding: 20px 0;
 
     /* DEBUG */
-    background-color: grey;
+    background-color: #D3D3D3;
 
 }
 
@@ -228,9 +228,90 @@ main {
     padding: 20px 0;
 
     /* DEBUG */
-    background-color:#218B21;
+    background-color: #218B21;
     height: 500px;
     border: 2px dashed black;
 }
 
 /* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* DEBUG */
+    background-color: #23272A;
+    min-height: 300px;
+}
+
+#footer-container {
+
+    width: 80%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 5px 0;
+    /* DEBUG */
+    background-color: #DAA51D;
+    height: 300px;
+}
+
+.contact-footer {
+    width: 20%;
+    /* DEBUG */
+    background-color: #F08180;
+    height: 300px;
+    border: 2px dashed black;
+
+}
+
+.nav-footer {
+    display: flex;
+    
+    flex-grow: 1;
+
+    /* DEBUG */
+    /* background-color: #F08180;
+    height: 300px;
+    border: 2px dashed white; */
+}
+
+.product-footer {
+    width: 25%;
+
+    /* DEBUG */
+    background-color: #20B3AA;
+    height: 300px;
+    border: 2px dashed white;
+
+}
+
+.company-footer {
+    width: 25%;
+
+    /* DEBUG */
+    background-color: #20B3AA;
+    height: 300px;
+    border: 2px dashed white;
+
+}
+
+.resource-footer {
+    width: 25%;
+
+    /* DEBUG */
+    background-color: #20B3AA;
+    height: 300px;
+    border: 2px dashed white;
+
+}
+
+.norm-footer {
+    width: 25%;
+
+    /* DEBUG */
+    background-color: #20B3AA;
+    height: 300px;
+    border: 2px dashed white;
+
+}
