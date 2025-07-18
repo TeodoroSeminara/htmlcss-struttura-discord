@@ -1,0 +1,29 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* DEBUG */
+    background-color: #ACD7E5;
+    height: 50px;
+}
+
+.header-container {
+
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* DEBUG */
+    background-color: #DAA51D;
+    border: 2px dashed black;
+    height: 30px;
+}
