@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* Header */
 
 header {
@@ -23,6 +24,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px 0;
     /* DEBUG */
     background-color: #DAA51D;
     height: 30px;
@@ -94,3 +96,141 @@ header {
     height: 250px;
     border: 2px dashed black;
 }
+
+/* Main */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Hashtag section */
+#hashtag-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.hashtag {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+
+    /* DEBUG */
+    /* background-color:rgb(131, 47, 47);
+    height: 300px;
+    border: 2px dashed black; */
+
+}
+
+/* container width 60 */
+.container-w60 {
+
+    width: 60%;
+     /* DEBUG */
+    background-color: #1E90FF;
+    height: 250px;
+    border: 2px dashed black;
+
+}
+
+/* container width 40 */
+.container-w40 {
+
+    width: 40%;
+     /* DEBUG */
+    background-color: #FFC0CA;
+    height: 250px;
+    border: 2px dashed black;
+
+}
+
+/* Voice */
+
+#voice-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* DEBUG */
+    background-color: grey;
+
+}
+
+.voice {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+
+    /* DEBUG */
+    /* background-color:rgb(131, 47, 47);
+    height: 300px;
+    border: 2px dashed black; */
+
+}
+
+/* People */
+
+#people-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* DEBUG */
+    background-color: #fff;
+
+}
+
+.people {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+
+    /* DEBUG */
+    /* background-color:rgb(131, 47, 47);
+    height: 300px;
+    border: 2px dashed black; */
+
+}
+
+/* tech */
+
+#tech-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+
+    /* DEBUG */
+    background-color: grey;
+
+}
+
+.tech {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+
+    /* DEBUG */
+    background-color:#218B21;
+    height: 500px;
+    border: 2px dashed black;
+}
+
+/* Footer */
