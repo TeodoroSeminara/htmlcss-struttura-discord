@@ -347,7 +347,7 @@ footer {
     border: 2px dashed black;
 }
 
-.try {
+#end-footer-container {
     width: 100%;
     display: flex;
     justify-content: center;
