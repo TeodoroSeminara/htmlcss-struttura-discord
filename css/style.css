@@ -17,7 +17,8 @@ header {
     background-color: #ACD7E5;
     min-height: 300px;
 }
-
+ 
+/* Header Logo/nav/Login */
 .header-container {
 
     width: 80%;
